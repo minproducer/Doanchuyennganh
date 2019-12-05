@@ -1,0 +1,14 @@
+{
+  "name": "TestApp",
+  "description": "My elevator pitch goes here",
+  "launch_path": "/index.html",
+  "icons": {
+    "512": "/512.png",
+    "128": "/128.png"
+  },
+  "developer": {
+    "name": "MonokaiJs [nstudio]",
+    "url": "https://omfg.vn"
+  },
+  "default_locale": "en"
+}

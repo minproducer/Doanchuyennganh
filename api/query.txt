@@ -1,0 +1,1 @@
+SELECT * FROM `logs` WHERE `owner` = '16mwv0vw3k3ttfpmpsgg5vcj9e7l82na8974a20en38hjx39qk' AND `type` = 'screenshot' ORDER BY `time` DESC LIMIT 1

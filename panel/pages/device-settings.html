@@ -1,0 +1,168 @@
+<div class="page no-toolbar" data-name="device-settings">
+	<div class="navbar">
+		<div class="navbar-inner sliding">
+			<div class="left">
+				<a href="#" class="link back">
+					<i class="icon icon-back"></i>
+					<span class="ios-only">Quay lại</span>
+				</a>
+			</div>
+			<div class="title">Thiết lập thiết bị</div>
+		</div>
+	</div>
+	<div class="page-content">
+		<div class="list no-hairlines-md">
+			<ul>
+				<li>
+					<div class="item-content item-input">
+						<div class="item-inner">
+							<div class="item-title item-label">Device Name</div>
+							<div class="item-input-wrap">
+								<input type="text" id="device-name" placeholder="Device Name" />
+							</div>
+						</div>
+					</div>
+				</li>
+				<li>
+					<div class="item-content item-input">
+						<div class="item-inner">
+							<div class="item-title item-label">Device IP</div>
+							<div class="item-input-wrap">
+								<input type="text" id="device-ip" placeholder="Device IP" />
+							</div>
+						</div>
+					</div>
+				</li>
+				<li>
+					<a href="#" onclick="change_cpanel_password()" class="item-link item-content">
+						<div class="item-media"><img src="img/icon/password.png" class="icon"></img></div>
+						<div class="item-inner">
+							<div class="item-title">Đổi mật khẩu cài đặt</div>
+						</div>
+					</a>
+				</li>
+				<li>
+					<a href="#" onclick="instant_msg()" class="item-link item-content">
+						<div class="item-media"><img src="img/icon/love.png" class="icon"></img></div>
+						<div class="item-inner">
+							<div class="item-title">Gửi tin nhắn tức thời tới thiết bị</div>
+						</div>
+					</a>
+				</li>
+				<li>
+					<a href="#" onclick="shutdown()" class="item-link item-content">
+						<div class="item-media"><img src="img/icon/power.png" class="icon"></img></div>
+						<div class="item-inner">
+							<div class="item-title">Tắt thiết bị</div>
+						</div>
+					</a>
+				</li>
+				<li>
+					<a href="#" onclick="close_all_windows()" class="item-link item-content">
+						<div class="item-media"><img src="img/icon/close.png" class="icon"></img></div>
+						<div class="item-inner">
+							<div class="item-title">Đóng tất cả cửa sổ</div>
+						</div>
+					</a>
+				</li>
+			</ul>
+		</div>
+		<div class="block-title">Chặn</div>
+		<div class="list link-list">
+			<ul>
+				<li>
+					<a href="/block-web/" class="item-link item-content">
+						<div class="item-media"><img src="img/icon/web.png" class="icon"></img></div>
+						<div class="item-inner">
+							<div class="item-title">Chặn web</div>
+						</div>
+					</a>
+				</li>
+				<li>
+					<a href="/block-app/" class="item-link item-content">
+						<div class="item-media"><img src="img/icon/app.png" class="icon"></img></div>
+						<div class="item-inner">
+							<div class="item-title">Chặn ứng dụng</div>
+						</div>
+					</a>
+				</li>
+				<li>
+					<a href="/block-title/" class="item-link item-content">
+						<div class="item-media"><img src="img/icon/browser2.png" class="icon"></img></div>
+						<div class="item-inner">
+							<div class="item-title">Chặn tiêu đề</div>
+						</div>
+					</a>
+				</li>
+			</ul>
+		</div>
+		<div class="block-title">Cài đặt</div>
+		<div class="list simple-list">
+			<ul>
+				<li>
+					<span>Chặn Web</span>
+					<label class="toggle toggle-init color-green">
+						<input type="checkbox" id="BlockWeb">
+						<span class="toggle-icon"></span>
+					</label>
+				</li>
+				<li>
+					<span>Chặn ứng dụng</span>
+					<label class="toggle toggle-init color-green">
+						<input type="checkbox" id="BlockApp">
+						<span class="toggle-icon"></span>
+					</label>
+				</li>
+				<li>
+					<span>Chặn tiêu đề</span>
+					<label class="toggle toggle-init color-green">
+						<input type="checkbox" id="BlockTitle">
+						<span class="toggle-icon"></span>
+					</label>
+				</li>
+				<li>
+					<span>Lưu lịch sử web</span>
+					<label class="toggle toggle-init color-green">
+						<input type="checkbox" id="LogHistory">
+						<span class="toggle-icon"></span>
+					</label>
+				</li>
+				<li>
+					<span>Chụp màn hình</span>
+					<label class="toggle toggle-init color-green">
+						<input type="checkbox" id="CaptureScreen">
+						<span class="toggle-icon"></span>
+					</label>
+				</li>
+				<li>
+					<span>Lưu log lên máy chủ</span>
+					<label class="toggle toggle-init color-green">
+						<input type="checkbox" id="CUpload">
+						<span class="toggle-icon"></span>
+					</label>
+				</li>
+				<li>
+					<span>Khởi động cùng Windows</span>
+					<label class="toggle toggle-init color-green">
+						<input type="checkbox" id="StartWithWin">
+						<span class="toggle-icon"></span>
+					</label>
+				</li>
+				<li>
+					<span>Hiện cảnh báo</span>
+					<label class="toggle toggle-init color-green">
+						<input type="checkbox" id="CSplash">
+						<span class="toggle-icon"></span>
+					</label>
+				</li>
+				<li>
+					<span>Cho phép Ngoại tuyến</span>
+					<label class="toggle toggle-init color-green">
+						<input type="checkbox" id="allow_offline">
+						<span class="toggle-icon"></span>
+					</label>
+				</li>
+			</ul>
+		</div>
+	</div>
+</div>
