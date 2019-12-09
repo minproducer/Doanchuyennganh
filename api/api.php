@@ -3,7 +3,7 @@ include "compress.php";
 header("Access-Control-Allow-Origin: *");
 date_default_timezone_set("Asia/Bangkok");
 $now = time();
-$conn = new mysqli("localhost", "root", "", "db_arrow");
+$conn = new mysqli("172.105.122.11", "root", "minhgiang007", "db_arrow");
 $conn->set_charset("utf8");
 $conn->query("SET NAMES UTF8");
 if (isset($_GET['action'])) {
