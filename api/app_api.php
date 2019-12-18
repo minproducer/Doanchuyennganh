@@ -7,7 +7,7 @@ $dbname = 'db_arrow';
 $dbuser = 'root';
 $dbpass = 'minhgiang007';
 $dbhost = '172.105.122.11';
-$conn = mysql_connect($dbhost, $dbuser, $dbpass)
+$conn = mysql_connect($dbhost, $dbuser, $dbpass, $dbname);
 $conn->set_charset("utf8");
 $conn->query("SET NAMES UTF8");
 $return = array();
