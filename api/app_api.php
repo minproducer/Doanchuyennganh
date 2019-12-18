@@ -3,7 +3,11 @@ header("Access-Control-Allow-Origin: *");
 header("Content-Type: application/json;charset=utf8mb4");
 date_default_timezone_set("Asia/Bangkok");
 require_once('Facebook/autoload.php');
-$conn = new mysqli("localhost", "root", "", "db_arrow");
+$dbname = 'db_arrow';
+$dbuser = 'root';
+$dbpass = 'minhgiang007';
+$dbhost = '172.105.122.11';
+$conn = mysql_connect($dbhost, $dbuser, $dbpass)
 $conn->set_charset("utf8");
 $conn->query("SET NAMES UTF8");
 $return = array();
